@@ -2,6 +2,7 @@
 
 
 # Your codebase-expert generator
+👋 Made by [mbezard](https://twitter.com/MatthieuBezard) at [Bam](https://bam.tech/) 
 
 
 ## Install
