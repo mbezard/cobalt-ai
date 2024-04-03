@@ -1,9 +1,9 @@
 import {useMutation} from '@tanstack/react-query';
-import {askQuestion} from '../openai/askQuestion.js';
+import {askQuestion} from '../../shared/openai/askQuestion.js';
 import {useEffect, useRef} from 'react';
 import {Question as QuestionType} from './questions.js';
 import {useGlobalState} from '../../globalState.js';
-import {useOpenai} from '../openai/OpenaiClientProvider.js';
+import {useOpenai} from '../../shared/openai/OpenaiClientProvider.js';
 
 export const useQuestion = (question: QuestionType) => {
 	const openai = useOpenai();

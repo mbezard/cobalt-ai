@@ -4,7 +4,7 @@ import {
 	basePromptExpertPrompting,
 	basePromptEndPart,
 	basePromptDevBestPractices,
-} from '../modules/openai/prompts.js';
+} from '../shared/openai/staticPrompts.js';
 import {gettingAndWritingFilesFromFunctionOutput} from './gettingAndWritingFilesFromFunctionOutput.js';
 
 export const useSaveResults = () => {

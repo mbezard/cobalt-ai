@@ -4,7 +4,7 @@ import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import OpenAI from 'openai';
 import {CliFlags} from './cliFlags.type.js';
 import 'dotenv/config';
-import {OpenaiProvider} from './modules/openai/OpenaiClientProvider.js';
+import {OpenaiProvider} from './shared/openai/OpenaiClientProvider.js';
 import {CodebaseExpert} from './CodebaseExpert.js';
 
 type Props = {

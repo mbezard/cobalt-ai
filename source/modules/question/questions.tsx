@@ -1,12 +1,14 @@
+import {QuestionWithFunction} from '../../shared/openai/question.type.js';
 import {
-	designSystemQuestion,
-	fiveTestExamplesQuestions,
-	getSomeScreenImplementationQuestion,
 	macroArchitectureQuestion,
-	mainConfigFilesQuestion,
 	mainTechnoAndLanguagesQuestion,
-} from '../openai/prompts.js';
-import {QuestionWithFunction} from '../openai/question.type.js';
+	fiveTestExamplesQuestions,
+} from '../initialQuestions/prompt.js';
+import {
+	mainConfigFilesQuestion,
+	designSystemQuestion,
+	getSomeScreenImplementationQuestion,
+} from '../specificQuestions/prompt.js';
 
 export type QuestionKey =
 	| 'macroArchitecture'

@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import {QuestionWithFunction} from './question.type.js';
-import {codebaseExpertPrompt} from './prompts.js';
+import {codebaseExpertPrompt} from './staticPrompts.js';
 import {RunnableToolFunctionWithParse} from 'openai/lib/RunnableFunction.mjs';
 import {exploringTools} from './exploringTools.js';
 import {model} from './constant.js';

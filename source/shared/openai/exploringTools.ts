@@ -1,6 +1,6 @@
 import {RunnableToolFunctionWithParse} from 'openai/lib/RunnableFunction.mjs';
-import {lsFunction} from './lsfunction.js';
-import {catFunction} from './catFunction.js';
+import {lsFunction} from './tools/lsFunction.js';
+import {catFunction} from './tools/catFunction.js';
 
 export const lsOpenaiFunction: RunnableToolFunctionWithParse<any> = {
 	type: 'function',
